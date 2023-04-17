@@ -93,6 +93,7 @@ body {
    position: relative;
 }
 .picture {
+   margin-bottom: 50px;
 
 }
 .picture__laptop {
@@ -103,7 +104,8 @@ body {
 .picture__square_one {
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   gap: 15px;
+   padding-left: 25px;
    position: absolute;
    height: 96px;
    width: 263px;
@@ -124,8 +126,9 @@ width: 179px;
 .picture__square_two {
    display: flex;
    align-items: center;
-   justify-content: space-around;
    position: absolute;
+   gap: 15px;
+   padding-left: 25px;
    height: 96px;
    width: 263px;
    border-radius: 6px;
@@ -138,7 +141,6 @@ width: 179px;
 }
 .description {
    text-align: center;
-   margin-top: 60px;
    margin-bottom: 54px;
    
 }
