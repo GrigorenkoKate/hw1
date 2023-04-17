@@ -105,7 +105,7 @@ body {
    display: flex;
    align-items: center;
    gap: 15px;
-   padding-left: 25px;
+   padding: 25px;
    position: absolute;
    height: 96px;
    width: 263px;
@@ -118,8 +118,6 @@ body {
    line-height: 24px;   
 }
 .picture__square__text{
-height: 55px;
-width: 179px;
 
 }
 
@@ -128,7 +126,7 @@ width: 179px;
    align-items: center;
    position: absolute;
    gap: 15px;
-   padding-left: 25px;
+   padding: 25px;
    height: 96px;
    width: 263px;
    border-radius: 6px;
